@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Learn Redux Middleware",
+      "body": "It's easy to understand when you actually make it"
+    },
+    {
+      "id": 2,
+      "title": "Let's use redux-thunk",
+      "body": "Let's handle asynchronous tasks using redux-thunk"
+    },
+    {
+      "id": 3,
+      "title": "Let's also use redux-saga",
+      "body": "We're also gonna learn how to handle asynchronous tasks using redux-saga"
+    }
+  ]
+}
