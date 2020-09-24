@@ -12,6 +12,9 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import ReduxThunk from 'redux-thunk';
 import { BrowserRouter, Router } from "react-router-dom";
 import { createBrowserHistory } from 'history';
+import axios from 'axios';
+
+axios.defaults.baseURL = process.env.NODE_ENV === 'development' ? '/' : 'http://127.0.0.1/';
 
 const customHistory = createBrowserHistory();
 
